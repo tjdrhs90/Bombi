@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>splash_message_caps</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>splash_message</key>
+        <value>점검중 입니다.</value>
+    </entry>
+    <entry>
+        <key>splash_notice_caps</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>splash_notice</key>
+        <value>매월 1일 저녁 10시에 모든 데이터를 삭제합니다.</value>
+    </entry>
+</defaultsMap>

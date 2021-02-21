@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">봄비</string>
+    <string name="admob_app_id">test​</string>
+    <string name="banner_ad_unit_id">test​</string>
+
+
+    <string name="banner_ad_unit_id_for_test">test</string>
+    <!--    ㅌㅔ스트 id-->
+    <!--    <string name="banner_ad_unit_id_for_test">test</string>-->
+
+
+    <string name="fcm_key">test</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area">
+        <item>지역선택</item>
+        <item>서울</item>
+        <item>경기</item>
+        <item>부산</item>
+        <item>인천</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>세종</item>
+        <item>강원</item>
+        <item>충청</item>
+        <item>전라</item>
+        <item>경상</item>
+        <item>제주</item>
+    </string-array>
+    
+    <string-array name="age">
+        <item>나이선택</item>
+        <item>10대미만</item>
+        <item>12년생</item>
+        <item>11년생</item>
+        <item>10년생</item>
+        <item>09년생</item>
+        <item>08년생</item>
+        <item>07년생</item>
+        <item>06년생</item>
+        <item>05년생</item>
+        <item>04년생</item>
+        <item>03년생</item>
+        <item>02년생</item>
+        <item>01년생</item>
+        <item>00년생</item>
+        <item>99년생</item>
+        <item>98년생</item>
+        <item>97년생</item>
+        <item>96년생</item>
+        <item>95년생</item>
+        <item>94년생</item>
+        <item>93년생</item>
+        <item>92년생</item>
+        <item>91년생</item>
+        <item>90년생</item>
+        <item>89년생</item>
+        <item>88년생</item>
+        <item>87년생</item>
+        <item>86년생</item>
+        <item>85년생</item>
+        <item>84년생</item>
+        <item>83년생</item>
+        <item>82년생</item>
+        <item>81년생</item>
+        <item>80년생</item>
+        <item>79년생</item>
+        <item>78년생</item>
+        <item>77년생</item>
+        <item>76년생</item>
+        <item>75년생</item>
+        <item>74년생</item>
+        <item>73년생</item>
+        <item>72년생</item>
+        <item>50대이상</item>
+    </string-array>
+</resources>

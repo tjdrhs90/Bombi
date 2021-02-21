@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView_guideMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="안녕하세요 봄비 개발자입니다.\n제 앱을 사용해주셔서 감사합니다.\n몇 가지 안내사항을 알려드리겠습니다.\n\n가입할 때 입력받은 정보는 앱 내에서만 사용되고\n다른 목적으로 사용되지 않습니다.\n\nFirebase Cloud Firestore Database를 사용하여\n정보 호출이 다소 느릴 수 있습니다.\n1~2초 정도 걸리니 너그러이 기다려주십시오.\n\n특히 대화방을 나가거나 회원탈퇴할 경우\n내 정보와 대화상대방의 정보도 지워야 하기 때문에\n3~4초 정도 걸릴 수 있습니다. 로딩을 꼭 기다려주십시오.\n중간에 종료하면 DB가 꼬일 수 있습니다.\n\n기본 로직은 이렇습니다.\n새 쪽지를 보낼 때\n이미 내 쪽지가 전달된 사용자나\n현재 대화중인 사용자에게는 가지 않습니다.\n새 쪽지는 1분에 하나씩 보낼 수 있습니다.\n\n데이터 초기화 직후에는 대화방을 나가도\n해당 사용자로부터 메시지가 다시 올 수 있습니다.\n\n잘 대화하고 있다가 어느날 갑자기 대화방이 사라졌다면\n상대방이 탈퇴를 했거나 대화방을 나간 것입니다.\n\n매월 1일 모든 계정정보와 대화내용이 삭제됩니다.\n이전까지는 가입했다가 탈퇴하지 않고\n앱을 지운 사용자에게까지(전체 약 1,000명)\n랜덤으로 메시지가 전송되고 있었는데\n매월 초기화를 통해 사용자들 간에 대화가 더 쉬워집니다.\n(1일날 초기화되고 2일날 2명이 쪽지를 보내면\n100%확률로 대화를 할 수 있습니다.)\n\n초보개발자라서 많은 기능을 넣지는 못했습니다.\n여러분이 인연을 찾길 바라는 마음에서 개발하였습니다.\n오류가 있다면 tjdrhs90@gmail.com으로 알려주십시오.\n또한 추가됐으면 하는 기능이 있다면 알려주십시오.\n제 실력으로 구현 가능한 기능이라면 해보겠습니다.\n\n모두들 인연을 꼭 만나시길 바라겠습니다!"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+        </ScrollView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id_for_test">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

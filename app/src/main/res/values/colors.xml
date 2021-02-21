@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="message">#000000</color>
+
+    <!--    원본 -->
+    <!--    <color name="colorPrimary">#008577</color>-->
+    <!--    <color name="colorPrimaryDark">#00574B</color>-->
+    <!--    <color name="colorAccent">#D81B60</color>-->
+
+    <!--    다크하게 -->
+    <!--    <color name="colorPrimary">#888888</color>-->
+    <!--    <color name="colorPrimaryDark">#000000</color>-->
+    <!--    <color name="colorAccent">#444444</color>-->
+
+    <!--    최종 -->
+        <color name="colorPrimary">#FFFFFF</color>
+        <color name="colorPrimaryDark">#000000</color>
+        <color name="colorAccent">#FF96D7</color>
+</resources>
